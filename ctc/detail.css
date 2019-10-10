@@ -1,0 +1,274 @@
+.topnavi {
+    clear: both;
+    border-bottom: 0.02em #66aaf4 solid;
+    overflow: auto;
+}
+
+.commonwordone {
+    font-size: 0.11em;
+    color: #756d66;
+}
+
+.commonwordtwo {
+    font-size: 0.13em;
+    margin-left: 1.69em;
+}
+
+
+
+.commonwordthree {
+    font-size: 0.15em;
+    color: #756d66;
+}
+
+.personalinfdetail {
+    margin-left: 0.769em;
+}
+
+
+.topmenu {
+    float: left;
+    font-size: 0.13em;
+    height: 5.61em;
+    width: 13.46em;
+    display: table;
+    background: white;
+    border-left: 0.01em solid #e9ecef;
+    cursor: pointer;
+}
+
+.topmenurest {
+    width: 9.46em;
+}
+
+.topmenu .healthlist {
+    text-align: center;
+    display: table-cell;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.healthlist * {
+    font-size: 1.07em;
+}
+
+.bodypart {
+    background-color: #efefef;
+    clear: both;
+    overflow: auto;
+}
+
+.bodypart .personalinf {
+    background-color: #fff;
+    width: 2.68em;
+    margin: 0.19em 0 0 0.19em;
+    border-radius: 0.05em;
+    float: left;
+    line-height: 0.24em;
+}
+
+.bodypart .personalinf .personphoto {
+    width: 0.67em;
+    height: 0.64em;
+    margin-right: 0.21em;
+    float: left;
+}
+
+.bodypart .personalinf .personphoto img {
+    width: 100%;
+    height: 100%;
+}
+
+.bodypart .contents {
+    float: left;
+}
+
+.bodypart .content {
+    width: 8.38em;
+    margin: 0.19em 0 0 0.11em;
+    border-radius: 0.05em;
+    background-color: #fff;
+
+}
+
+.bodypart .diseasetab {
+    /* width: 100%; */
+    background-color: #fff;
+    border-radius: 0.05em;
+    padding: 0.24em 0 0 0.14em;
+}
+
+.bodypart .diseasetab .diseasename {
+    font-size: 0.13em;
+    /* line-height: 1.15em; */
+}
+
+.bodypart .diseasetab .diseasename:before {
+    content: '';
+    display: inline-block;
+    width: 1.15em;
+    height: 1.15em;
+    background-color: red;
+    margin-right: 0.3em;
+    vertical-align: sub;
+}
+
+.bodypart .more {
+    float: right;
+    padding-right: 2.3em;
+    cursor: pointer;
+}
+
+.bodypart .moredisease {
+    float: right;
+    padding-right: 3em;
+    cursor: pointer;
+}
+
+.bodypart .diseasetab .diseasetable {
+    margin-top: 0.69em;
+    border-top: 0.02em #66aaf4 solid;
+    width: 98%;
+    padding-bottom: 0.06em;
+}
+
+.bodypart .diseasetab .diseasetable .detailtable {
+    text-align: center;
+    width: 100%;
+    font-size: 0.13em;
+    border-right: 1px solid#e9ecef;
+    border-bottom: 1px solid #e9ecef;
+}
+
+.bodypart .diseasetab .diseasetable .detailtable td {
+    border-left: 1px solid#e9ecef;
+    border-top: 1px solid #e9ecef;
+    color: #756d66;
+}
+
+.bodypart .diseasetab .diseasetable .detailtable th {
+    border-left: 1px solid#e9ecef;
+    font-weight: 700;
+}
+
+.bodypart .step_round {
+    position: fixed;
+    left: 11.36em;
+    right: 0;
+
+    float: left;
+}
+
+.bodypart .step_round ul {
+    margin: 1.27em 0 0 0.73em;
+    font-size: 0.15em;
+}
+
+.ul_step li.active {
+    color: #fff;
+    background: #00b8f5;
+}
+
+.ul_step:first-child li {
+    margin: 0 0 3em 0;
+}
+
+.ul_step li {
+    margin: 3em 0;
+    width: 7em;
+    text-align: center;
+    background: #e1e1e1;
+    color: #8a9399;
+    padding: 0.5em 0.2em;
+    border-radius: 5px;
+}
+
+.ul_step li a:before {
+    content: '';
+    position: absolute;
+    z-index: 2;
+    /* top: 0; */
+    /* left: 0; */
+    left: 9em;
+    margin: 0px -3px;
+    width: 1em;
+    height: 1em;
+    background-color: #9c9a9b;
+    line-height: 20px;
+    border: 5px solid #ebebeb;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px #9c9a9b;
+}
+
+.ul_step li a:after {
+    content: '';
+    position: absolute;
+    /* left: 0; */
+    left: 9.5em;
+    /* top: -35%;
+    bottom: 35%; */
+    background-color: #9c9a9b;
+    z-index: 1;
+    width: 2px;
+    border: solid #9c9a9b;
+    border-width: 1px 0;
+    height: 5em;
+}
+
+.chronic_disease>div {
+    display: inline-block;
+    color: #fff;
+    margin-right: 1em;
+}
+
+.chronic_disease .simple:before {
+    content: '';
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    background-color: #66aaf4;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: -1.5em;
+}
+
+.chronic_disease .low:before {
+    content: '';
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    background-color: #66aaf4;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: -1.5em;
+}
+
+.chronic_disease .middle:before {
+    content: '';
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    background-color: #fb981f;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: -1.5em;
+}
+
+.chronic_disease .high:before {
+    content: '';
+    width: 2em;
+    height: 2em;
+    border-radius: 50%;
+    background-color: #f90000;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: -1.5em;
+}

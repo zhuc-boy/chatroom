@@ -1,0 +1,358 @@
+<!-- <!DOCTYPE html> -->
+<!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <link rel="stylesheet" href="./bootstrap.min.css" type="text/css"> -->
+    <link href="./common.css" type="text/css" rel="stylesheet">
+    <link href="./detail.css" type="text/css" rel="stylesheet">
+
+    <title>摘要</title>
+</head>
+
+<body>
+    <div class="topnavi">
+        <div class="topmenu ">
+            <div class="healthlist">
+                <div style="font-size: 1.38em">健康档案</div>
+                <div>Health Records</div>
+            </div>
+        </div>
+        <div class="topmenu topmenurest ">
+            <div class="healthlist">
+                <div>摘要</div>
+            </div>
+        </div>
+        <div class="topmenu topmenurest ">
+            <div class="healthlist">
+                <div>儿童保健</div>
+            </div>
+        </div>
+        <div class="topmenu topmenurest ">
+            <div class="healthlist">
+                <div>妇女保健</div>
+            </div>
+        </div>
+        <div class="topmenu topmenurest ">
+            <div class="healthlist">
+                <div>疾病管理</div>
+            </div>
+        </div>
+        <div class="topmenu topmenurest ">
+            <div class="healthlist">
+                <div>医疗服务</div>
+            </div>
+        </div>
+        <div class="topmenu topmenurest ">
+            <div class="healthlist">
+                <div>自我管理</div>
+            </div>
+        </div>
+        <div class="topmenu topmenurest ">
+            <div class="healthlist">
+                <div>生命周期</div>
+            </div>
+        </div>
+        <div class="topmenu topmenurest ">
+            <div class="healthlist">
+                <div>检查检验</div>
+            </div>
+        </div>
+    </div>
+    <div class="bodypart">
+        <div class="personalinf">
+            <div class="topnavi" style="padding: 0.24em 0.21em">
+                <div class="personphoto">
+                    <img src="./head.jpg">
+                    <!-- alt="暂无头像" -->
+                </div>
+                <div>
+                    <div class="commonwordone">320502198710190035</div>
+                    <div class="commonwordthree">王土昂</div>
+                    <div class="commonwordthree"><span>男</span>&nbsp;&nbsp;&nbsp;<span>32岁</span></div>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <div class="commonwordtwo"
+                        style="width: 14.3em;border-bottom:solid #e9ecef 0.1em;margin-top:1.65em">
+                        个人信息</div>
+                    <div><span class=" commonwordtwo">出生日期</span><span
+                            class="commonwordone commonwordtwo personalinfdetail">1987-10-19</span></div>
+                    <div><span class="commonwordtwo ">民&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;族</span><span
+                            class="commonwordone commonwordtwo personalinfdetail">汉族</span></div>
+                    <div><span class="commonwordtwo ">婚&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;姻</span><span
+                            class="commonwordone commonwordtwo personalinfdetail">已婚</span></div>
+                    <div><span class="commonwordtwo">文化程度</span><span
+                            class="commonwordone commonwordtwo personalinfdetail">本科</span>
+                    </div>
+                    <div><span class="commonwordtwo ">电&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;话</span><span
+                            class="commonwordone commonwordtwo personalinfdetail">15151509833</span></div>
+                    <div style="display: table;margin: 0.1em 0">
+                        <div class="commonwordtwo" style="display: inline-block">慢性疾病</div>
+                        <div class="commonwordone personalinfdetail chronic_disease" style="display: inline-block">
+                            <div class="simple"><span>高</span></div>
+                            <div class="simple"><span>糖</span></div>
+                        </div>
+                    </div>
+                    <div style="display: table;margin: 0.1em 0">
+                        <div style="display:inline-block" class="commonwordtwo">筛查疾病</div>
+                        <div class="commonwordone personalinfdetail chronic_disease" style="display:inline-block">
+                            <div class="middle"><span>脑</span></div>
+                            <div class="high"><span>肿</span></div>
+                            <div>
+                                <div class="low"><span>冠</span></div>
+                            </div>
+                        </div>
+                        <div style="color: #66aaf4" class="moredisease commonwordtwo" id="spread">展开</div>
+                        <div style="color: #66aaf4;display: none" class="moredisease commonwordtwo" id="retract">收起
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <div class="commonwordtwo" style="width: 14.3em;border-bottom:solid #e9ecef 0.1em">紧急联系人</div>
+                    <div><span class="commonwordtwo">姓名</span><span class="commonwordone commonwordtwo">仲怀军</span></div>
+                    <div><span class="commonwordtwo">关系</span><span class="commonwordone commonwordtwo"></span></div>
+                    <div><span class="commonwordtwo">电话</span><span
+                            class="commonwordone commonwordtwo">18013563608</span></div>
+                </div>
+                <div class="commonwordtwo">
+                    echarts
+                </div>
+            </div>
+        </div>
+        <div class="contents">
+            <div class="content" id="index1">
+                <div class="diseasetab">
+                    <div class="diseasename">
+                        <span>就诊病史</span>
+                        <span class="more">MORE</span>
+                    </div>
+                    <div class="diseasetable">
+                        <table class="detailtable" cellspacing="0" cellpadding="3">
+                            <thead>
+                                <tr>
+                                    <th>就诊日期</th>
+                                    <th>就诊医院</th>
+                                    <th>诊断ICD10</th>
+                                    <th>诊断名称</th>
+                                    <th>就诊类型</th>
+                                    <th>操作</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2017/06/28</td>
+                                    <td>苏州市中西医结合医院</td>
+                                    <td>B99.X92</td>
+                                    <td>妊娠剧烈</td>
+                                    <td>门诊</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>2017/06/28</td>
+                                    <td>苏州中医药</td>
+                                    <td>B99.X92</td>
+                                    <td>妊娠剧烈</td>
+                                    <td>门诊</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>2017/06/28</td>
+                                    <td>苏州人民医院</td>
+                                    <td>B99.X92</td>
+                                    <td>妊娠剧烈</td>
+                                    <td>门诊</td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="content" id="index3">
+                <div class="diseasetab">
+                    <div class="diseasename">
+                        <span>孕产妇分娩信息</span>
+                        <span class="more">MORE</span>
+                    </div>
+                    <div class="diseasetable">
+                        <table class="detailtable" cellspacing="0" cellpadding="3">
+                            <thead>
+                                <tr>
+                                    <th>分娩日期</th>
+                                    <th>分娩方式</th>
+                                    <th>分娩医院</th>
+                                    <th>分娩孕周</th>
+                                    <th>操作</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2017/06/28</td>
+                                    <td>苏州市中西医结合医院</td>
+                                    <td>B99.X92</td>
+                                    <td>妊娠剧烈</td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="content" id="index4">
+                <div class="diseasetab">
+                    <div class="diseasename">
+                        <span>孕产妇产前随访</span>
+                        <span class="more">MORE</span>
+                    </div>
+                    <div class="diseasetable">
+                        <table class="detailtable" cellspacing="0" cellpadding="3">
+                            <thead>
+                                <tr>
+                                    <th>随访日期</th>
+                                    <th>保健号</th>
+                                    <th>孕周</th>
+                                    <th>随访结果</th>
+                                    <th>随访机构</th>
+                                    <th>操作</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2017/06/28</td>
+                                    <td>苏州市中西医结合医院</td>
+                                    <td>B99.X92</td>
+                                    <td>妊娠剧烈</td>
+                                    <td>门诊</td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="content" id="index5">
+                <div class="diseasetab">
+                    <div class="diseasename">
+                        <span>孕产妇产后随访</span>
+                        <span class="more">MORE</span>
+                    </div>
+                    <div class="diseasetable">
+                        <table class="detailtable" cellspacing="0" cellpadding="3">
+                            <thead>
+                                <tr>
+                                    <th>随访日期</th>
+                                    <th>保健号</th>
+                                    <th>产后天数</th>
+                                    <th>随访结果</th>
+                                    <th>随访机构</th>
+                                    <th>操作</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2017/06/28</td>
+                                    <td>苏州市中西医结合医院</td>
+                                    <td>B99.X92</td>
+                                    <td>妊娠剧烈</td>
+                                    <td>门诊</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>2017/06/28</td>
+                                    <td>苏州中医药</td>
+                                    <td>B99.X92</td>
+                                    <td>妊娠剧烈</td>
+                                    <td>门诊</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>2017/06/28</td>
+                                    <td>苏州人民医院</td>
+                                    <td>B99.X92</td>
+                                    <td>妊娠剧烈</td>
+                                    <td>门诊</td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="content" id="index6">
+                <div class="diseasetab">
+                    <div style="font-size: 0.13em;">
+                        <span>检查信息</span>
+                        <span class="more">MORE</span>
+                    </div>
+                    <div class="diseasename">
+                        <span>[右下肢动脉B超][左下肢动脉B超]</span>
+
+                    </div>
+                    <div class="diseasetable">
+                        <table class="detailtable" cellspacing="0" cellpadding="3">
+                            <thead>
+                                <tr>
+                                    <th>检查日期</th>
+                                    <th>检查医院</th>
+                                    <th>检查结论</th>
+                                    <th>操作</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2017/06/28</td>
+                                    <td>苏州市中西医结合医院</td>
+                                    <td>B99.X92</td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="step_round">
+            <ul data-step="3" class="ul_step">
+                <li class="active">
+                    <a href="#index1">就诊病史</a>
+                </li>
+                <li>
+                    <a href="#index2">随访记录</a>
+                </li>
+                <li>
+                    <a href="#index3">孕妇分娩信息</a>
+                </li>
+                <li>
+                    <a href="#index4">孕产妇产前随访</a>
+                </li>
+                <li>
+                    <a href="#index5">孕产妇产后随访</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+<script src="./jquery.js"></script>
+<script>
+    $('.more').click(function (e) {
+        console.log(e)
+    })
+    $('#spread').click(function (e) {
+        $('#retract').css('display', 'block')
+        $('#spread').css('display', 'none')
+    })
+    $('#retract').click(function (e) {
+        $('#spread').css('display', 'block')
+        $('#retract').css('display', 'none')
+    })
+
+</script>
+
+</html>

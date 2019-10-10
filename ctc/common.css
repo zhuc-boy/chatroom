@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+body,
+p,
+form,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+@media (min-width: 800px) {
+    html {
+        font-size: 58.5651537335px;
+    }
+}
+
+@media (min-width: 980px) {
+    html {
+        font-size: 71.7423133236px;
+    }
+}
+
+@media (min-width: 1024px) {
+    html {
+        font-size: 74.9633967789px;
+    }
+}
+
+@media (min-width: 1080px) {
+    html {
+        font-size: 79.0629575403px;
+    }
+}
+
+@media (min-width: 1152px) {
+    html {
+        font-size: 84.3338213763px;
+    }
+}
+
+@media (min-width: 1366px) {
+    html {
+        font-size: 100px;
+    }
+}
+
+@media (min-width: 1440px) {
+    html {
+        font-size: 105.4172767204px;
+    }
+}
+
+@media (min-width: 2160px) {
+    html {
+        font-size: 158.1259150805px;
+    }
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
