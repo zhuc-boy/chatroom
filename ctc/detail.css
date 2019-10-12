@@ -183,16 +183,41 @@
     border-radius: 5px;
 }
 
-.ul_step li a:before {
+.ul_step li.active a:before {
     content: '';
     position: absolute;
     z-index: 2;
-    /* top: 0; */
-    /* left: 0; */
     left: 9em;
     margin: 0px -3px;
     width: 1em;
     height: 1em;
+    background-color: #00b8f5;
+    line-height: 20px;
+    border: 5px solid #ebebeb;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px #00b8f5;
+}
+
+.ul_step li.active a:after {
+    content: '';
+    position: absolute;
+    left: 9.5em;
+    background-color: #00b8f5;
+    z-index: 1;
+    width: 2px;
+    border: solid #9c9a9b;
+    border-width: 1px 0;
+    height: 5.2em;
+}
+
+.ul_step li a:before {
+    content: '';
+    position: absolute;
+    z-index: 2;
+    left: 9em;
+    margin: 0px -2px;
+    width: 0.7em;
+    height: 0.7em;
     background-color: #9c9a9b;
     line-height: 20px;
     border: 5px solid #ebebeb;
@@ -203,16 +228,13 @@
 .ul_step li a:after {
     content: '';
     position: absolute;
-    /* left: 0; */
     left: 9.5em;
-    /* top: -35%;
-    bottom: 35%; */
     background-color: #9c9a9b;
     z-index: 1;
     width: 2px;
     border: solid #9c9a9b;
     border-width: 1px 0;
-    height: 5em;
+    height: 5.2em;
 }
 
 .chronic_disease>div {
