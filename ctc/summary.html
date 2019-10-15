@@ -8,9 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- <link rel="stylesheet" href="./bootstrap.min.css" type="text/css"> -->
-    <link href="./common.css" type="text/css" rel="stylesheet">
-    <link href="./detail.css" type="text/css" rel="stylesheet">
-
+    <link href="static/css/common.css" type="text/css" rel="stylesheet">
+    <link href="static/css/detail.css" type="text/css" rel="stylesheet">
     <title>摘要</title>
 </head>
 
@@ -67,7 +66,7 @@
         <div class="personalinf">
             <div class="topnavi" style="padding: 0.24em 0.21em">
                 <div class="personphoto">
-                    <img src="./head.jpg">
+                    <img src="static/image/head.jpg">
                     <!-- alt="暂无头像" -->
                 </div>
                 <div>
@@ -101,12 +100,12 @@
                     </div>
                     <div style="display: table;margin: 0.1em 0">
                         <div style="display:inline-block" class="commonwordtwo">筛查疾病</div>
-                        <div class="commonwordone personalinfdetail chronic_disease" style="display:inline-block">
+                        <div class="commonwordone personalinfdetail screen_disease" style="display:inline-block">
                             <div class="middle"><span>脑</span></div>
                             <div class="high"><span>肿</span></div>
-                            <div>
-                                <div class="low"><span>冠</span></div>
-                            </div>
+                            <div style="display: none" class="low"><span>冠</span></div>
+                            <div style="display: none" class="middle"><span>肺</span></div>
+                            <div style="display: none" class="high"><span>三</span></div>
                         </div>
                         <div style="color: #66aaf4" class="moredisease commonwordtwo" id="spread">展开</div>
                         <div style="color: #66aaf4;display: none" class="moredisease commonwordtwo" id="retract">收起
@@ -316,11 +315,720 @@
                     </div>
                 </div>
             </div>
+            <div class="content" id="index7">
+                <div class="diseasetab">
+                    <div class="diseasename">
+                        <span>健康体检</span>
+                        <span class="more">MORE</span>
+                    </div>
+                    <div class="diseasetable">
+                        <table class="detailtable" cellspacing="0" cellpadding="3">
+                            <thead>
+                                <tr>
+                                    <th>体检日期</th>
+                                    <th>保健责任医生号</th>
+                                    <th>机构名称</th>
+                                    <th>操作</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2017/06/28</td>
+                                    <td>芳芳</td>
+                                    <td>基本公共卫生服务系统测试机构留园卫生服务</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>2019/09/27</td>
+                                    <td>芳芳</td>
+                                    <td>基本公共卫生服务系统测试机构留园卫生服务</td>
+                                    <td></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="content" id="index8">
+                <div class="diseasetab">
+                    <div class="diseasename">
+                        <span>高血压健康管理</span>
+                        <span class="more">MORE</span>
+                    </div>
+                    <div class="diseasetable">
+                        <table class="detailtable" cellspacing="0" cellpadding="3">
+                            <thead>
+                                <tr>
+                                    <th>随访日期</th>
+                                    <th>随访医生</th>
+                                    <th>机构名称</th>
+                                    <th>随访方式</th>
+                                    <th>下次随访日期</th>
+                                    <th>操作</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2017/06/28</td>
+                                    <td>芳芳</td>
+                                    <td>基本公共卫生服务系统测试机构留园卫生服务</td>
+                                    <td>门诊</td>
+                                    <td>2019/10/26</td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="content" id="index9">
+                <div class="diseasetab">
+                    <div class="diseasename">
+                        <span>2型糖尿病健康</span>
+                        <span class="more">MORE</span>
+                    </div>
+                    <div class="diseasetable">
+                        <table class="detailtable" cellspacing="0" cellpadding="3">
+                            <thead>
+                                <tr>
+                                    <th>随访日期</th>
+                                    <th>随访医生</th>
+                                    <th>机构名称</th>
+                                    <th>随访方式</th>
+                                    <th>下次随访日期</th>
+                                    <th>操作</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2017/06/28</td>
+                                    <td>芳芳</td>
+                                    <td>基本公共卫生服务系统测试机构留园卫生服务</td>
+                                    <td>门诊</td>
+                                    <td>2019/10/26</td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="content" id="index10">
+                <div class="diseasetab">
+                    <div class="diseasename">
+                        <span>老年人健康</span>
+                        <span class="more">MORE</span>
+                    </div>
+                    <div class="diseasetable">
+                        <table class="detailtable" cellspacing="0" cellpadding="3">
+                            <thead>
+                                <tr>
+                                    <th>评估日期</th>
+                                    <th>评估医生</th>
+                                    <th>机构名称</th>
+                                    <th>评估总分</th>
+                                    <th>评估结论</th>
+                                    <th>操作</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2017/06/28</td>
+                                    <td>沈悅</td>
+                                    <td>专东镇卫生院</td>
+                                    <td>0</td>
+                                    <td>可自理</td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="content" id="index11">
+                <div class="diseasetab">
+                    <div class="diseasename">
+                        <span>孕产妇健康</span>
+                        <span class="more">MORE</span>
+                    </div>
+                    <div class="diseasetable">
+                        <table class="detailtable" cellspacing="0" cellpadding="3">
+                            <thead>
+                                <tr>
+                                    <th>随访日期</th>
+                                    <th>随访医生</th>
+                                    <th>机构名称</th>
+                                    <th>随访项目</th>
+                                    <th>下次随访日期</th>
+                                    <th>操作</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2017/06/28</td>
+                                    <td>测试医生</td>
+                                    <td>测试卫生院</td>
+                                    <td>第1次产前检查服务记录</td>
+                                    <td>-</td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="content" id="index12">
+                <div class="diseasetab">
+                    <div class="diseasename">
+                        <span>0~6岁儿童健康管理</span>
+                        <span class="more">MORE</span>
+                    </div>
+                    <div class="diseasetable">
+                        <table class="detailtable" cellspacing="0" cellpadding="3">
+                            <thead>
+                                <tr>
+                                    <th>随访日期</th>
+                                    <th>随访医生</th>
+                                    <th>机构名称</th>
+                                    <th>随访项目</th>
+                                    <th>下次随访日期</th>
+                                    <th>操作</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2017/06/28</td>
+                                    <td>测试医生</td>
+                                    <td>测试卫生院</td>
+                                    <td>3~6岁儿童健康检查记录表</td>
+                                    <td>-</td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="content" id="index13">
+                <div class="diseasetab">
+                    <div class="diseasename">
+                        <span>严重精神障碍</span>
+                        <span class="more">MORE</span>
+                    </div>
+                    <div class="diseasetable">
+                        <table class="detailtable" cellspacing="0" cellpadding="3">
+                            <thead>
+                                <tr>
+                                    <th>随访日期</th>
+                                    <th>随访医生</th>
+                                    <th>机构名称</th>
+                                    <th>随访方式</th>
+                                    <th>随访项目</th>
+                                    <th>操作</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2017/06/28</td>
+                                    <td>李渔</td>
+                                    <td>基本公共卫生服务系统测试机构留园卫生服务</td>
+                                    <td>家庭访视</td>
+                                    <td>个人信息补充表</td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="content" id="index14">
+                <div class="diseasetab">
+                    <div class="diseasename">
+                        <span>肺结核健康</span>
+                        <span class="more">MORE</span>
+                    </div>
+                    <div class="diseasetable">
+                        <table class="detailtable" cellspacing="0" cellpadding="3">
+                            <thead>
+                                <tr>
+                                    <th>随访日期</th>
+                                    <th>随访医生</th>
+                                    <th>机构名称</th>
+                                    <th>随访方式</th>
+                                    <th>随访项目</th>
+                                    <th>操作</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2017/06/28</td>
+                                    <td>李渔</td>
+                                    <td>基本公共卫生服务系统测试机构留园卫生服务</td>
+                                    <td>家庭访视</td>
+                                    <td>个人信息补充表</td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="content" id="index15">
+                <div class="diseasetab">
+                    <div class="diseasename">
+                        <span>中医药健康</span>
+                        <span class="more">MORE</span>
+                    </div>
+                    <div class="diseasetable">
+                        <table class="detailtable" cellspacing="0" cellpadding="3">
+                            <thead>
+                                <tr>
+                                    <th>随访日期</th>
+                                    <th>随访医生</th>
+                                    <th>机构名称</th>
+                                    <th>操作</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2017/06/28</td>
+                                    <td>李渔</td>
+                                    <td>基本公共卫生服务系统测试机构留园卫生服务</td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="content" id="index16">
+                <div class="diseasetab">
+                    <div class="diseasename">
+                        <span>心脑血管</span>
+                        <span class="more">MORE</span>
+                    </div>
+                    <div class="diseasetable">
+                        <table class="detailtable" cellspacing="0" cellpadding="3">
+                            <thead>
+                                <tr>
+                                    <th rowspan="2">筛查时间</th>
+                                    <th rowspan="2">筛查/评估医生</th>
+                                    <th rowspan="2">筛查机构</th>
+                                    <th colspan="2" style="border-bottom: 1px solid #e9ecef;">心脏病</th>
+                                    <th colspan="2" style="border-bottom: 1px solid #e9ecef;">脑卒中</th>
+                                    <th rowspan="2">操作</th>
+                                </tr>
+                                <tr>
+                                    <th>危险因素数</th>
+                                    <th>评估结果</th>
+                                    <th>危险因素数</th>
+                                    <th>评估结果</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2017/06/28</td>
+                                    <td>李渔</td>
+                                    <td>基本公共卫生服务系统测试机构留园卫生服务</td>
+                                    <td>2</td>
+                                    <td>高危</td>
+                                    <td>3</td>
+                                    <td>高危</td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="content" id="index17">
+                <div class="diseasetab">
+                    <div class="diseasename">
+                        <span>肿瘤</span>
+                        <span class="more">MORE</span>
+                    </div>
+                    <div class="diseasetable">
+                        <table class="detailtable" cellspacing="0" cellpadding="3">
+                            <thead>
+                                <tr>
+                                    <th rowspan="2">筛查时间</th>
+                                    <th rowspan="2">筛查医生</th>
+                                    <th rowspan="2">筛查机构</th>
+                                    <th colspan="2" style="border-bottom: 1px solid #e9ecef;">肺癌</th>
+                                    <th colspan="2" style="border-bottom: 1px solid #e9ecef;">胃癌</th>
+                                    <th colspan="2" style="border-bottom: 1px solid #e9ecef;">肝癌</th>
+                                    <th colspan="2" style="border-bottom: 1px solid #e9ecef;">大肠癌</th>
+                                    <th rowspan="2">操作</th>
+                                </tr>
+                                <tr>
+                                    <th>危险因素数</th>
+                                    <th>评估结果</th>
+                                    <th>危险因素数</th>
+                                    <th>评估结果</th>
+                                    <th>危险因素数</th>
+                                    <th>评估结果</th>
+                                    <th>危险因素数</th>
+                                    <th>评估结果</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2017/06/28</td>
+                                    <td>李渔</td>
+                                    <td>基本公共卫生服务系统测试机构留园卫生服务</td>
+                                    <td>2</td>
+                                    <td>高危</td>
+                                    <td>3</td>
+                                    <td>高危</td>
+                                    <td>3</td>
+                                    <td>高危</td>
+                                    <td>3</td>
+                                    <td>高危</td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="content" id="index18">
+                <div class="diseasetab">
+                    <div class="diseasename">
+                        <span>高危妊娠</span>
+                        <span class="more">MORE</span>
+                    </div>
+                    <div class="diseasetable">
+                        <table class="detailtable" cellspacing="0" cellpadding="3">
+                            <thead>
+                                <tr>
+                                    <th>筛查时间</th>
+                                    <th>筛查医生</th>
+                                    <th>筛查机构</th>
+                                    <th>筛查结果</th>
+                                    <th>评估结果</th>
+                                    <th>操作</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2017/06/28</td>
+                                    <td>李渔</td>
+                                    <td>基本公共卫生服务系统测试机构留园卫生服务</td>
+                                    <td>良好</td>
+                                    <td>待定</td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="content" id="index19">
+                <div class="diseasetab">
+                    <div class="diseasename">
+                        <span>骨质疏松</span>
+                        <span class="more">MORE</span>
+                    </div>
+                    <div class="diseasetable">
+                        <table class="detailtable" cellspacing="0" cellpadding="3">
+                            <thead>
+                                <tr>
+                                    <th>筛查时间</th>
+                                    <th>筛查医生</th>
+                                    <th>筛查机构</th>
+                                    <th>量表阳性个数</th>
+                                    <th>OSTA指数</th>
+                                    <th>评估结果</th>
+                                    <th>操作</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2017/06/28</td>
+                                    <td>李渔</td>
+                                    <td>基本公共卫生服务系统测试机构留园卫生服务</td>
+                                    <td>1</td>
+                                    <td>2</td>
+                                    <td>低危</td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="content" id="index20">
+                <div class="diseasetab">
+                    <div class="diseasename">
+                        <span>儿童哮喘</span>
+                        <span class="more">MORE</span>
+                    </div>
+                    <div class="diseasetable">
+                        <table class="detailtable" cellspacing="0" cellpadding="3">
+                            <thead>
+                                <tr>
+                                    <th>筛查时间</th>
+                                    <th>筛查医生</th>
+                                    <th>筛查机构</th>
+                                    <th>危险因素数</th>
+                                    <th>评估结果</th>
+                                    <th>操作</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2017/06/28</td>
+                                    <td>李渔</td>
+                                    <td>基本公共卫生服务系统测试机构留园卫生服务</td>
+                                    <td>0</td>
+                                    <td>非高危</td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="content" id="index21">
+                <div class="diseasetab">
+                    <div class="diseasename">
+                        <span>慢阻肺</span>
+                        <span class="more">MORE</span>
+                    </div>
+                    <div class="diseasetable">
+                        <table class="detailtable" cellspacing="0" cellpadding="3">
+                            <thead>
+                                <tr>
+                                    <th>筛查时间</th>
+                                    <th>筛查医生</th>
+                                    <th>筛查机构</th>
+                                    <th>危险因素数</th>
+                                    <th>哮喘预测指数</th>
+                                    <th>评估结果</th>
+                                    <th>操作</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2017/06/28</td>
+                                    <td>李渔</td>
+                                    <td>基本公共卫生服务系统测试机构留园卫生服务</td>
+                                    <td>0</td>
+                                    <td>-</td>
+                                    <td>非高危</td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="content" id="index22">
+                <div class="diseasetab">
+                    <div class="diseasename">
+                        <span>远程门诊记录</span>
+                        <span class="more">MORE</span>
+                    </div>
+                    <div class="diseasetable">
+                        <table class="detailtable" cellspacing="0" cellpadding="3">
+                            <thead>
+                                <tr>
+                                    <th>挂号时间</th>
+                                    <th>接诊医生</th>
+                                    <th>接诊医生所在医院</th>
+                                    <th>接诊方式</th>
+                                    <th>就诊日期</th>
+                                    <th>就诊科室</th>
+                                    <th>远程专家</th>
+                                    <th>远程专家所在医院</th>
+                                    <th>状态</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2019-09-29 15:19:04</td>
+                                    <td>李渔</td>
+                                    <td>专东村卫生服务站</td>
+                                    <td>移动接诊</td>
+                                    <td>2019-09-29 下午</td>
+                                    <td>心血管内科</td>
+                                    <td>刘媛媛</td>
+                                    <td>北京红十字医院</td>
+                                    <td>未就诊</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="content" id="index23">
+                <div class="diseasetab">
+                    <div class="diseasename">
+                        <span>心电协诊记录</span>
+                        <span class="more">MORE</span>
+                    </div>
+                    <div class="diseasetable">
+                        <table class="detailtable" cellspacing="0" cellpadding="3">
+                            <thead>
+                                <tr>
+                                    <th>申请诊断医生</th>
+                                    <th>申请诊断机构</th>
+                                    <th>申请诊断时间</th>
+                                    <th>诊断医生</th>
+                                    <th>诊断机构</th>
+                                    <th>诊断时间</th>
+                                    <th>状态</th>
+                                    <th>诊断结果</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>沈悦</td>
+                                    <td>基本公共卫生服务系统测试机构留园卫生服务</td>
+                                    <td>2019-08-09 10:11:09</td>
+                                    <td>杨明</td>
+                                    <td>上海中医院</td>
+                                    <td>2019-08-09 10:32:40</td>
+                                    <td>已诊断</td>
+                                    <td>** 可疑心电图 ** T波改变</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="content" id="index24">
+                <div class="diseasetab">
+                    <div class="diseasename">
+                        <span>家医签约记录</span>
+                        <span class="more">MORE</span>
+                    </div>
+                    <div class="diseasetable">
+                        <table class="detailtable" cellspacing="0" cellpadding="3">
+                            <thead>
+                                <tr>
+                                    <th>签约日期</th>
+                                    <th>签约医生</th>
+                                    <th>机构名称</th>
+                                    <th>签约团队</th>
+                                    <th>状态</th>
+                                    <th>服务到期时间</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2019-07-24 00:00:00</td>
+                                    <td>赵新联</td>
+                                    <td>文昌街道卫生服务中心</td>
+                                    <td>文昌街道卫生服务中心</td>
+                                    <td>签约中</td>
+                                    <td>2019-08-09 10:32:40</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="content" id="index25">
+                <div class="diseasetab">
+                    <div class="diseasename">
+                        <span>慢病评估</span>
+                        <span class="more">MORE</span>
+                    </div>
+                    <div class="diseasetable">
+                        <table class="detailtable" cellspacing="0" cellpadding="3">
+                            <thead>
+                                <tr>
+                                    <th>评估日期</th>
+                                    <th>评估医生</th>
+                                    <th>机构名称</th>
+                                    <th>病情描述</th>
+                                    <th>临床问题</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2019-07-24 00:00:00</td>
+                                    <td>赵新联</td>
+                                    <td>文昌街道卫生服务中心</td>
+                                    <td>吃多了</td>
+                                    <td>签约中</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="content" id="index26">
+                <div class="diseasetab">
+                    <div class="diseasename">
+                        <span>脑卒中</span>
+                        <span class="more">MORE</span>
+                    </div>
+                    <div class="diseasetable">
+                        <table class="detailtable" cellspacing="0" cellpadding="3">
+                            <thead>
+                                <tr>
+                                    <th>责任医生</th>
+                                    <th>上次随访时间</th>
+                                    <th>下次随访时间</th>
+                                    <th>备注</th>
+                                    <th>操作</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>赵新联</td>
+                                    <td>2019-07-24 00:00:00</td>
+                                    <td>2019-07-24 00:00:00</td>
+                                    <td>吃多了</td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="content" id="index27">
+                <div class="diseasetab">
+                    <div class="diseasename">
+                        <span>冠心病</span>
+                        <span class="more">MORE</span>
+                    </div>
+                    <div class="diseasetable">
+                        <table class="detailtable" cellspacing="0" cellpadding="3">
+                            <thead>
+                                <tr>
+                                    <th>管理日期</th>
+                                    <th>管理医生</th>
+                                    <th>责任医生</th>
+                                    <th>上次随访时间</th>
+                                    <th>下次随访时间</th>
+                                    <th>备注</th>
+                                    <th>操作</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>2019-07-24 00:00:00</td>
+                                    <td>赵新联</td>
+                                    <td>赵新联</td>
+                                    <td>2019-07-24 00:00:00</td>
+                                    <td>2019-07-24 00:00:00</td>
+                                    <td>吃多了</td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="step_round">
-            <ul data-step="3" class="ul_step">
-                <li class="active">
+            <ul data-step="0" class="ul_step">
+                <li>
                     <a href="#index1">就诊病史</a>
                 </li>
                 <li>
@@ -339,7 +1047,7 @@
         </div>
     </div>
 </body>
-<script src="./jquery.js"></script>
+<script src="static/javascript/jquery.js"></script>
 <script>
     $('.more').click(function (e) {
         console.log(e)
@@ -347,13 +1055,54 @@
     $('#spread').click(function (e) {
         $('#retract').css('display', 'block')
         $('#spread').css('display', 'none')
+        for (var diseasenindex = 3; diseasenindex <= $('.screen_disease').children('div').length; diseasenindex++) {
+            $('.screen_disease>div:nth-child(' + diseasenindex + ')').css('display', 'inline-block')
+        }
+
     })
     $('#retract').click(function (e) {
         $('#spread').css('display', 'block')
         $('#retract').css('display', 'none')
+        for (var diseasenindex = 3; diseasenindex <= $('.screen_disease').children('div').length; diseasenindex++) {
+            $('.screen_disease>div:nth-child(' + diseasenindex + ')').css('display', 'none')
+        }
     })
-    $('.step_round').click(function(e){
-        console.log(e)
+    /* $('.ul_step>li').click(function (e) {
+        var step = $('.ul_step').attr('data-step')
+        if (step == $(this).index() + 1) {
+            return
+        }
+        for (var i = 1; i < $(this).index() + 2; i++) {
+            if ($('.ul_step li:nth-child(' + i + ')').hasClass('active') != true) {
+                $('.ul_step li:nth-child(' + i + ')').addClass('active')
+            }
+        }
+
+        $('.ul_step').attr('data-step', $(this).index() + 1)
+        for (var j = $(this).index() + 2; j < $('.ul_step').children('li').length + 1; j++) {
+            if ($('.ul_step li:nth-child(' + j + ')').hasClass('active') == true) {
+                $('.ul_step li:nth-child(' + j + ')').removeClass('active')
+            }
+        }
+    }) */
+    $('.ul_step>li').click(function (e) {
+        var step = $('.ul_step').attr('data-step')
+        if (step == $(this).index() + 1) {
+            return
+        }
+        for (var i = 1; i < $(this).index() + 1; i++) {
+            if ($('.ul_step li:nth-child(' + i + ')').hasClass('active') == true) {
+                $('.ul_step li:nth-child(' + i + ')').removeClass('active')
+
+            }
+        }
+        $('.ul_step li:nth-child(' + ($(this).index() + 1) + ')').addClass('active')
+        $('.ul_step').attr('data-step', $(this).index() + 1)
+        for (var j = $(this).index() + 2; j < $('.ul_step').children('li').length + 1; j++) {
+            if ($('.ul_step li:nth-child(' + j + ')').hasClass('active') == true) {
+                $('.ul_step li:nth-child(' + j + ')').removeClass('active')
+            }
+        }
     })
 </script>
 
