@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/zhuc-boy/chatroom#readme",
   "dependencies": {
-    "socket.io": "~2.2.0",
+    "socket.io": "~2.5.0",
     "mime": "~2.4.0",
     "mysql": "~2.16.0"
   }
